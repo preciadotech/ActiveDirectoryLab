@@ -21,31 +21,31 @@ In this lab, I successfully set up a Windows Server 2019 domain controller in Az
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Create Server 2019 and Windows VM on Azure: <br/>
+Step 1: Create Server 2019 and Windows VMs on Azure: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Install Active Directory Domain Services:  <br/>
+Step 2: Install Active Directory Domain Services (AD DS) on the Server 2019 VM:  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create domain controller to promote to Server 2019: <br/>
+Step 3: Promote Server 2019 to Domain Controller: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create Users On Server Manager:  <br/>
+Step 4: Create Users in Active Directory:  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Change adapter settings on Windows VM to communicate with Server 2019 via TCP/IPv4:  <br/>
+Step 5: Change Network Adapter Settings on Windows 10 VM:  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Make Windows 10 vm a member of the domain:  <br/>
+Step 6: Join the Windows 10 VM to the Domain:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+Step 7: Verify Domain Membership:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
