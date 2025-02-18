@@ -32,15 +32,21 @@ I opened Server Manager, went to Add Roles and Features, and selected Active Dir
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Step 3: Promote Server 2019 to Domain Controller: <br/>
+<h2>Step 3: Promote Server 2019 to Domain Controller: </h2>
+I selected Add a new forest and entered a domain name (e.g., example.local). <br/>
+After completing the wizard, I allowed the server to reboot, which promoted it to the Domain Controller for my new domain (example.local). <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Step 4: Create Users in Active Directory:  <br/>
+<h2>Step 4: Create Users in Active Directory:  </h2>
+I opened the Active Directory Users and Computers tool from Server Manager to start managing users. <br/>
+I created a few test user accounts by right-clicking on the domain (example.local), selecting New → User, and providing details for each user. <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Step 5: Change Network Adapter Settings on Windows 10 VM:  <br/>
+<h2>Step 5: Change Network Adapter Settings on Windows 10 VM: </h2> 
+I connected to the Windows 10 VM using RDP and navigated to the Network and Sharing Center. <br/>
+From there, I clicked on Change adapter settings to modify the network adapter configuration. <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
