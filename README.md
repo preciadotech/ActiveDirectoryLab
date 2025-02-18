@@ -47,14 +47,20 @@ I created a few test user accounts by right-clicking on the domain (example.loca
 <h2>Step 5: Change Network Adapter Settings on Windows 10 VM: </h2> 
 I connected to the Windows 10 VM using RDP and navigated to the Network and Sharing Center. <br/>
 From there, I clicked on Change adapter settings to modify the network adapter configuration. <br/>
+In Internet Protocol Version 4 (TCP/IPv4), I selected Use the following DNS server addresses and entered the IP address of my Domain Controller (the Server 2019 VM) as the DNS server, so the Windows 10 VM can communicate with the domain. <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Step 6: Join the Windows 10 VM to the Domain:  <br/>
+<h2>Step 6: Join the Windows 10 VM to the Domain: </h2>
+On the Windows 10 VM, I opened System Properties (by right-clicking on This PC and choosing Properties → Change settings). <br/>
+I clicked on Change, entered the domain name (example.local), and provided the domain admin credentials to join the domain. <br/>
+After the domain join was successful, I was prompted to restart the VM to apply the changes. I restarted the Windows 10 VM. <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Step 7: Verify Domain Membership:  <br/>
+<h2>Step 7: Verify Domain Membership:  </h2>
+After the restart, I logged into the Windows 10 VM using a domain user account (e.g., example.local\username). <br/>
+I ensured the Windows 10 VM could successfully communicate with the Domain Controller and access domain resources like shared folders or printers. <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
