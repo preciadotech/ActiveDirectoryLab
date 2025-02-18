@@ -3,13 +3,12 @@
 
 
 <h2>Description</h2>
-In this lab, I successfully set up a Windows Server 2019 domain controller in Azure, created a domain, added users, configured network settings, and joined a Windows 10 VM to the domain.
+I set up a Windows Server 2019 domain controller and connected a Windows 10 VM to the domain as part of my home lab on Azure. Below are the detailed steps I took to complete the setup.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
 - <b>Microsoft Azure</b>
 - <b>Active Directory</b>
 
