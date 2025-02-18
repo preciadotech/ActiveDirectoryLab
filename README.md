@@ -1,20 +1,22 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
 
 <h2>Description</h2>
-In This lab....
+In this lab, I set up and configured an Active Directory environment integrated with Microsoft Azure. I began by creating and managing multiple user accounts, ensuring each had the appropriate permissions for accessing resources. To enhance security and streamline user management, I connected an on-premises domain controller to Azure Active Directory. This integration enabled hybrid identity management, allowing users to authenticate across both cloud and on-premises environments seamlessly. The setup provided centralized control over user access, improving both security and operational efficiency for managing IT resources.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Microsoft Azure</b>
+- <b>Active Directory</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b>
+- <b>Server 2019</b> 
 
 <h2>Program walk-through:</h2>
 
