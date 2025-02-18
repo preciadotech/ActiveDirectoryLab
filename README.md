@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-I set up a Windows Server 2019 domain controller and connected a Windows 10 VM to the domain as part of my home lab on Azure. Below are the detailed steps I took to complete the setup.
+In my home lab, I set up an Active Directory Domain Services environment on Azure by creating two virtual machines: one running Windows Server 2019 as the domain controller and another running Windows 10 as a client machine. I installed and configured AD DS on the Server 2019 VM, promoted it to a domain controller, and created user accounts. On the Windows 10 VM, I configured network settings to communicate with the domain controller and joined the machine to the domain. After restarting, I successfully logged into the Windows 10 VM using domain credentials, ensuring the domain environment was fully functional for testing and learning purposes.
 <br />
 
 
