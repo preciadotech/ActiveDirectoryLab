@@ -18,10 +18,10 @@ In this lab, I successfully set up a Windows Server 2019 domain controller in Az
 - <b>Windows 10</b>
 - <b>Server 2019</b> 
 
-<h2>Program walk-through:</h2>
-
 <p align="center">
-Step 1: Create Server 2019 and Windows VMs on Azure: <br/>
+<h2>Step 1: Create Server 2019 and Windows VMs on Azure: </h2>
+One VM is running Windows Server 2019 to serve as the Domain Controller. <br/>
+The second VM is a Windows 10 VM, which will act as a domain member client. <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
