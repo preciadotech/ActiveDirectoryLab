@@ -47,7 +47,7 @@ I created a few test user accounts by right-clicking on the domain (example.loca
 I connected to the Windows 10 VM using RDP and navigated to the Network and Sharing Center. <br/>
 From there, I clicked on Change adapter settings to modify the network adapter configuration. <br/>
 In Internet Protocol Version 4 (TCP/IPv4), I selected Use the following DNS server addresses and entered the IP address of my Domain Controller (the Server 2022 VM) as the DNS server, so the Windows 10 VM can communicate with the domain. <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wftTI5o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h2>Step 6: Join the Windows 10 VM to the Domain: </h2>
