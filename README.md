@@ -22,7 +22,7 @@ In my home lab, I set up an Active Directory Domain Services environment on Azur
 One VM is running Windows Server 2022 to serve as the Domain Controller. <br/>
 The second VM is a Windows 10 VM, which will act as a domain member client. <br/>
 I ensured both VMs were placed in the same Virtual Network (VNet) to ensure they could communicate with each other over the internal network. <br/>
-<img src="https://imgur.com/a/Wt4r4lC" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5he8UZQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h2>Step 2: Install Active Directory Domain Services (AD DS) on the Server 2022 VM:  </h2>
