@@ -40,7 +40,7 @@ After completing the wizard, I allowed the server to reboot, which promoted it t
 <h2>Step 4: Create Users in Active Directory:  </h2>
 I opened the Active Directory Users and Computers tool from Server Manager to start managing users. <br/>
 I created a few test user accounts by right-clicking on the domain (example.local), selecting New → User, and providing details for each user. <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eCbaBMB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h2>Step 5: Change Network Adapter Settings on Windows 10 VM: </h2> 
