@@ -34,7 +34,7 @@ I opened Server Manager, went to Add Roles and Features, and selected Active Dir
 <h2>Step 3: Promote Server 2022 to Domain Controller: </h2>
 I selected Add a new forest and entered a domain name (e.g., example.local). <br/>
 After completing the wizard, I allowed the server to reboot, which promoted it to the Domain Controller for my new domain (example.local). <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/i61hL98.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h2>Step 4: Create Users in Active Directory:  </h2>
