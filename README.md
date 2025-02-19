@@ -28,7 +28,7 @@ I ensured both VMs were placed in the same Virtual Network (VNet) to ensure they
 <h2>Step 2: Install Active Directory Domain Services (AD DS) on the Server 2022 VM:  </h2>
 After creating the Server 2022 VM, I used Remote Desktop Protocol (RDP) to connect to it and started configuring it. <br/>
 I opened Server Manager, went to Add Roles and Features, and selected Active Directory Domain Services (AD DS) for installation. <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/spnc4ZB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h2>Step 3: Promote Server 2022 to Domain Controller: </h2>
