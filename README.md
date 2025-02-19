@@ -60,7 +60,7 @@ After the domain join was successful, I was prompted to restart the VM to apply 
 <h2>Step 7: Verify Domain Membership:  </h2>
 After the restart, I logged into the Windows 10 VM using a domain user account (e.g., example.local\username). <br/>
 I ensured the Windows 10 VM could successfully communicate with the Domain Controller and access domain resources like shared folders or printers. <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/z9uVjwt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
