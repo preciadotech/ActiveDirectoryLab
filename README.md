@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-In my home lab, I set up an Active Directory Domain Services environment on Azure by creating two virtual machines: one running Windows Server 2022 as the domain controller and another running Windows 10 as a client machine. I installed and configured AD DS on the Server 2022 VM, promoted it to a domain controller, and created user accounts. On the Windows 10 VM, I configured network settings to communicate with the domain controller and joined the machine to the domain. After restarting, I successfully logged into the Windows 10 VM using domain credentials, ensuring the domain environment was fully functional for testing and learning purposes.
+In this project, I set up a Jira Service Management environment to simulate a help desk workflow. I implemented a ticketing system that can track and resolve user issues, configure SLAs (Service Level Agreements), automate tasks, and provide customer support through custom workflows. This project allowed me to understand how to use Jira Service Management for managing customer inquiries, handling IT support requests, and maintaining detailed records of support cases to improve response times and team performance..
 <br />
 
 <p align="center">
