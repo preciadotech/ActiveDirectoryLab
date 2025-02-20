@@ -6,17 +6,6 @@
 In my home lab, I set up an Active Directory Domain Services environment on Azure by creating two virtual machines: one running Windows Server 2022 as the domain controller and another running Windows 10 as a client machine. I installed and configured AD DS on the Server 2022 VM, promoted it to a domain controller, and created user accounts. On the Windows 10 VM, I configured network settings to communicate with the domain controller and joined the machine to the domain. After restarting, I successfully logged into the Windows 10 VM using domain credentials, ensuring the domain environment was fully functional for testing and learning purposes.
 <br />
 
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>Microsoft Azure</b>
-- <b>Active Directory</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b>
-- <b>Server 2022</b> 
-
 <p align="center">
 <h2>Step 1: Create Server 2022 and Windows VMs on Azure: </h2>
 One VM is running Windows Server 2022 to serve as the Domain Controller. <br/>
