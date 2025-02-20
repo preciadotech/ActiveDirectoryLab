@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-In this project, I set up a Jira Service Management environment to simulate a help desk workflow. I implemented a ticketing system that can track and resolve user issues, configure SLAs (Service Level Agreements), automate tasks, and provide customer support through custom workflows. This project allowed me to understand how to use Jira Service Management for managing customer inquiries, handling IT support requests, and maintaining detailed records of support cases to improve response times and team performance..
+In this lab, I set up a domain environment using Azure by creating two virtual machines (VMs): one running Windows Server 2022 to serve as the Domain Controller, and the other running Windows 10 as a domain member client. Both VMs were placed in the same Virtual Network (VNet) to enable communication between them. I installed Active Directory Domain Services (AD DS) on the Server 2022 VM, promoted it to a Domain Controller, and created user accounts in Active Directory. I then configured the network adapter settings on the Windows 10 VM to point to the Domain Controller for DNS resolution, and successfully joined the Windows 10 VM to the domain. After a reboot, I verified the domain membership by logging in with a domain user account and confirmed the VM could access domain resources.
 <br />
 
 <p align="center">
